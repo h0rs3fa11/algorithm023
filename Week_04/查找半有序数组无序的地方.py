@@ -1,7 +1,3 @@
-学习笔记
-
-使用二分查找，寻找一个半有序数组 [4, 5, 6, 7, 0, 1, 2] 中间无序的地方
-```python
 # 前提 升序数组部分旋转后
 # 转折点为k，左边界nums[left], 右边界nums[right]
 # 旋转后 nums[right] < nums[left]
@@ -25,4 +21,3 @@ def find_disorder(nums: list) -> int:
 
 num = [6, 7, 8, 9, 10, 0, 1, 2, 3, 4, 5]
 print(find_disorder(num))
-```
